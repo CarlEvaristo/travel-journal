@@ -10,7 +10,7 @@ function Card({title, location, googleMapsUrl, startDate, endDate, description, 
                 <p className="location">
                     <i className="fa-solid fa-location-dot"></i>
                     <span>{location.toUpperCase()}</span>
-                    <a href="#" className="link">View on Google Maps</a>
+                    <a href={googleMapsUrl} className="link">View on Google Maps</a>
                 </p>
                 <h1>{title}</h1>
                 <p className="subtitle">{startDate} - {endDate}</p>
