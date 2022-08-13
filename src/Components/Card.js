@@ -8,8 +8,8 @@ function Card({title, location, googleMapsUrl, startDate, endDate, description, 
             </div>
             <div className="info">
                 <p className="location">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <div>{location.toUpperCase()}</div>
+                    <i className="fa-solid fa-location-dot"></i>
+                    <span>{location.toUpperCase()}</span>
                     <a href="#" className="link">View on Google Maps</a>
                 </p>
                 <h1>{title}</h1>
